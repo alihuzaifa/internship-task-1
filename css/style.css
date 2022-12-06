@@ -1,0 +1,42 @@
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #deb887 !important;
+}
+
+/* progress bar */
+.progress-bar {
+    width: 30%;
+}
+
+/* Next Btn */
+.next-btn,
+.correct {
+    display: none;
+}
+
+.correct-answer-bar {
+    width: 0%;
+}
+
+.wrong-answer {
+    width: 0%;
+}
+
+.score-container {
+    display: none;
+}
+
+.quiz-container {
+    display: block;
+
+}
+
+.score {
+    display: block;
+    font-size: 50px;
+}
